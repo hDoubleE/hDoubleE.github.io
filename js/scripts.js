@@ -63,7 +63,7 @@
 
         // Add icons to each block
         $this.find('.vtimeline-point').each(function() {
-            $(this).prepend('<div class="vtimeline-icon"><i class="fa fa-square-o"></i></div>');
+            $(this).prepend('<div class="vtimeline-icon"><i class="fa fa-circle"></i></div>');
         });
 
         // Add dates to the timeline if exists
