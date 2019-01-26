@@ -714,6 +714,7 @@ footer {
 
     li {
         display: inline-block;
+        border-radius: 20px;
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
@@ -721,7 +722,6 @@ footer {
         list-style: none;
         cursor: default;
         font-size: 1.2em;
-        border-radius: 20px;
     }
 }
 
