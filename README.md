@@ -112,7 +112,7 @@ If you wish to have a sticky (fixed) header, you simply need to add a class of `
 
 The Lead section is pretty straightforward, it contains an h1 for your name and an h2 for your title. It also contains a link that can be used to link to your resume should you wish to add it as well.
 
-If you want your resume to automatically download when the button is clicked instead of opening up in another tab (the default behaviour), add the following code (Thanks to jkfran for the suggestion) in the lead:
+If you want your resume to automatically download when the button is clicked instead of opening up in another tab (the default behavior), add the following code (Thanks to jkfran for the suggestion) in the lead:
 
 ```HTML
 <a href="path/to/resume.pdf" download="resume.pdf" class="btn-rounded-white">Download Resume</a>
