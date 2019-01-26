@@ -34,19 +34,19 @@
 */
 
 // Define base and accent colors
-$base-color: #dbeeee;
+$base-color: #b3cde0;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #dbeeee;
-$background-alt: #dbeeee;
+$background: #005b96;
+$background-alt: #03396c;
 
 // Define border colors
-$border: #dbeeee;
+$border: #011f4b;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #6497b1;
+$text: #b3cde0;
 
 /*
     ---------------------
@@ -709,6 +709,7 @@ footer {
         margin: 0 auto;
         padding: 0;
         max-width: 800px;
+        border-radius: 20px;
     }
 
     li {
