@@ -1,2 +1,6 @@
 # Don't track content of these folders
 node_modules/
+launch.json/
+package.json/
+package-lock.json/
+LICENSE.md/

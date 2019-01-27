@@ -39,14 +39,14 @@ $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
 $background: #b3cde0;
-$background-alt: #6497b1;
+$background-alt: #b3cde0;
 
 
 // Define border colors
-$border: #03396c;
+$border: #011f4b;
 
 // Define text colors
-$heading: #6497b1;
+$heading: #03396c;
 $text: #011f4b;
 
 /*
@@ -269,7 +269,7 @@ footer {
 }
 
 .social {
-    text-align: center;
+    text-align: right;
 
     ul {
         margin: 5px 0 0 0;
@@ -986,11 +986,6 @@ footer {
     footer {
         text-align: center;
     }
-
-    .social {
-        text-align: center;
-    }
-
 }
 
 // Extra Small Devices
