@@ -14,15 +14,14 @@
     "coding",
     "dev"
   ],
-  "author": "Ryan Fitzgerald",
-  "license": "MIT",
+
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
     "gulp-plumber": "^1.2.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.1",
-    "gulp-wait": "0.0.2"
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-wait": "latest"
   }
 }

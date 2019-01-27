@@ -7,7 +7,7 @@ var rename = require('gulp-rename');
 var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('scripts', function() {
-    return gulp.src('js/scripts.js')
+    return gulp.src('./js/scripts.js')
         .pipe(plumber(plumber({
             errorHandler: function (err) {
                 console.log(err);
@@ -30,7 +30,9 @@ gulp.task('styles', function () {
         .pipe(gulp.dest('./css'));
 });
 
+
 gulp.task('watch', function() {
-    gulp.watch('js/scripts.js', gulp.series('scripts'));
-    gulp.watch('scss/styles.scss', gulp.series('styles'));
+    gulp.watch('./js/scripts.js', gulp.series('scripts'));
+    gulp.watch('./scss/styles.scss', gulp.series('styles'));
 });
+
