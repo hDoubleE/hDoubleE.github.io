@@ -316,14 +316,16 @@ footer {
 }
 
 .heading {
+    border-radius: 20px;
     position: relative;
     display: inline-block;
     font-size: 2em;
     font-weight: 300;
     margin: 0 0 30px 0;
-    border-radius: 20px;
+    
 
     &:after {
+        border-radius: 20px;
         position: absolute;
         content: '';
         top: 100%;
